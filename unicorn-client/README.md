@@ -1,13 +1,14 @@
-## Blink Unicorn Client
+## Blinkt! Unicorn Client
 
 A Go client for the [Unicorn Display Server](https://github.com/actuino/unicorn-display/tree/master/server)
 
-Gets commands from the server in real-time via WebSockets and updates it's Blinkt! display.
+Gets commands from the server in real-time via WebSockets and updates it's Blinkt! display 
+(A RGB LED stripe from @Pimoroni).
 
 ## How to run via Docker
 
-* Run a Unicorn server on your network : see the [Readme](https://github.com/actuino/unicorn-display/blob/master/server/README.md). Can be on the same Pi.
-* Pull and run the Docker image on the Pi:
+* Run a Unicorn server on your network: see the [Readme](https://github.com/actuino/unicorn-display/blob/master/server/README.md). Can be on the same Pi.
+* Pull and run the client Docker image on the Pi:
 ```
 docker pull actuino/blinkt-unicorn-client:1
 docker run --privileged -d -e DISPLAY_SERVER_HOST=192.168.7.3 actuino/blinkt-unicorn-client:1
