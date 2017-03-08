@@ -6,7 +6,7 @@ Gets commands from the server in real-time via WebSockets and updates it's Blink
 
 ## How to run via Docker
 
-* Run a Unicorn server on your network : see [Readme](https://github.com/actuino/unicorn-display/blob/master/server/README.md)
+* Run a Unicorn server on your network : see the [Readme](https://github.com/actuino/unicorn-display/blob/master/server/README.md). Can be on the same Pi.
 * Pull and run the Docker image on the Pi:
 ```
 docker pull actuino/blinkt-unicorn-client:1
