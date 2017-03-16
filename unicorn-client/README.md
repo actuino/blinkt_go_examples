@@ -29,4 +29,4 @@ This client only supports the 'StaticId' format for now.
 
 ## More info
 
-You'll find a [blog post on Actuino](http://www.actuino.fr/raspi/).
+You'll find a [blog post on Actuino](http://www.actuino.fr/raspi/learn-go-pi.html).

@@ -26,7 +26,7 @@ type FileMessage struct {
 
 
 func main() {
-	brightness := 5
+	brightness := 0.3
 	display_server_host := "192.168.7.3"
 	if "" != os.Getenv("DISPLAY_SERVER_HOST") {
 		display_server_host = os.Getenv("DISPLAY_SERVER_HOST")
